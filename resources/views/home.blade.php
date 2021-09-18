@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     {{-- <meta http-equiv="refresh" content="5;url=https://vicard.vn/"> --}}
-    <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="VICARD - Danh thiếp điện tử">
     <meta name="geo.region" content="VN-HN">
