@@ -32,6 +32,17 @@
     <link rel="shortcut icon" href="{{asset('icon.png')}}" type="image/x-icon" />
     <title>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</title>
     <link rel="canonical" href="{{asset('')}}" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VL8VHYKYQW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VL8VHYKYQW');
+    </script>
+
 </head>
 <body>
     <div id="app">
