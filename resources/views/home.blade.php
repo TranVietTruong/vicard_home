@@ -22,6 +22,8 @@
     <meta property="og:image" content="{{asset('logo.png')}}">
 
     <meta property="twitter:type" content="website">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:creator" content="@vicard">
     <meta property="twitter:title" content="VICARD - Danh thiếp điện tử đầu tiên tại Việt Nam">
     <meta property="twitter:url" content="{{asset('')}}">
     <meta property="twitter:description" content="Vicard cung cấp danh thiếp điện tử và nền tảng giúp người dùng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm thẻ trên điện thoại thông minh">
