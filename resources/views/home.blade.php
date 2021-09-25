@@ -13,10 +13,14 @@
     <meta name="geo.position" content="21.029165;105.803438">
     <meta name="ICBM" content="21.029165, 105.803438">
     <meta name="description" content="VICARD cung cấp danh thiếp điện tử và nền tảng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm"/>
-    <meta name="og:title" content="VICARD - Nền tảng kết nối chuyên nghiệp, hiện đại"> 
+    <meta name="og:title" content="VICARD - Nền tảng kết nối chuyên nghiệp, hiện đại">
     <meta name="og:url" content="{{asset('')}}">
     <meta name="og:description" content="VICARD cung cấp danh thiếp điện tử và nền tảng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm">
     <meta name="og:image" content="{{asset('logo.png')}}">
+    <meta name="twitter:title" content="VICARD - Nền tảng kết nối chuyên nghiệp, hiện đại">
+    <meta name="twitter:url" content="{{asset('')}}">
+    <meta name="twitter:description" content="VICARD cung cấp danh thiếp điện tử và nền tảng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm">
+    <meta name="twitter:image" content="{{asset('logo.png')}}">
     <link rel="shortcut icon" href="{{asset('icon.png')}}" type="image/x-icon" />
     <title>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</title>
     <link rel="canonical" href="{{asset('')}}" />
