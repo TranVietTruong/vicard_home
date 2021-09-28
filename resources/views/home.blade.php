@@ -21,6 +21,7 @@
     <meta property="og:url" content="{{asset('')}}">
     <meta property="og:description" content="Vicard cung cấp danh thiếp điện tử và nền tảng giúp người dùng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm thẻ trên điện thoại thông minh">
     <meta property="og:image" content="{{asset('thumbnail.png')}}">
+    <meta property="og:image:alt" content="vicard - danh thiếp điện tử">
 
     <meta property="twitter:type" content="website">
     <meta property="twitter:card" content="summary">
