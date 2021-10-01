@@ -82,7 +82,8 @@ ul {
 #tinhnang {
 	padding: 100px 0px;
 	background-color: #303539;
-	background-image: url(img/bg.png);
+	/*background-image: url(img/bg.png);*/
+	background-image: url(https://lh3.googleusercontent.com/oHfprWUY9uLPnpa0oI-xPrr_8URxAORXjesbW2gv1OIaOkFxr1-DbyGuLPlVAIfPS-TkdSjyjReQcvNyoVRgl8mrPvk12parV7cVSAfUpeZ5hWweN8GmzIZ6dWCyPpBWiEdD4ha4PhSjhgCc03vQg6_DqUWpt6nzdVr0fgfWzjHgooi1iWIRQbuR6XD3RF8wP6HNiR96IBsYAGV5igi1ODl5vVdhQOc8wxdgjJKnMqaqGqcUEo_lDkJO5QiCYtMwqvOPckLJoGvAo7bqZ7wgSnaHXp7GrEyPiRw1P1Gyp6FOkb_xq89Xubru6Vm-YC738aJDOofhttgT15V_37jujaEOI9ilIxsdRW9QEd6aKU9du2y_I-11WxYpO1dODAkqqs5H5rAMVgESe9hwkezgHkIn87_Y3ubJNd6qXzidG4yo4Ys39B_ZrEbIWTcjBiQvZWaItFDkuD-mFhWW3yM5Wb5Nm-XsWNmOC0H_xGu4-gNfPy7_Hv3JfeZPwEAjMcZSl5QSLEcD-uLe5SlgpcCaQuUj07-0bGrui7jGi6tzNhMORsDjIMp-zFOt4DtmZyz9PPwQcq0iwpI0aL2Ed4pz2A2iaemITll6RsQ8qPZtuRQy9g9ivCc9e1cicl7D7gAHBznkANx-DkL5D9s_9uFBfdoWzcS4jyN7KcGxwvpY97v2VwYWXbVldZ4VXyaapCnxrAVNGQOrUIWF0o_8fIOHyIA=w1677-h943-no?authuser=0);
 	background-size: cover;
 	position: relative;
 	color: white;
