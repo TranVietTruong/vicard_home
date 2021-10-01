@@ -76,7 +76,7 @@
         {{-- <img class="bg" src="{{ asset('assets/img/background2.png') }}" alt=""> --}}
         <div class="overlay"></div>
         <div class="trangchu container">
-            <h1>Danh thiếp điện tử đầu tiên tại Việt Nam 123</h1>
+            <h1>Danh thiếp điện tử đầu tiên tại Việt Nam</h1>
             <p style="font-size: 20px">Chia sẻ thông tin trong 1 giây</p>
             <button class="button button-primary"> Đặt Mua </button>
         </div>
