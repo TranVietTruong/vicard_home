@@ -56,16 +56,26 @@
             <div class="row">
                 <div class="three columns">
                     <div class="logo">
-                        <img src="{{ asset('logo.png') }}" alt="">
+                        <a href="{{asset('')}}">
+                            <img src="{{ asset('logo.png') }}" alt="">
+                        </a>
                     </div>
                 </div>  
                 <div class="nine columns">
                     <div class="menu">
                         <ul>
-                            <li>trang chủ</li>
-                            <li>tính năng</li>
-                            <li>hướng dẫn</li>
-                            <li>mua ngay</li>
+                            <li>
+                                <a href="#trangchu">trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="#tinhnang">tính năng</a>
+                            </li>
+                            <li>
+                                <a href="#loiich">hướng dẫn</a>
+                            </li>
+                            <li>
+                                <a href="#mua">mua ngay</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

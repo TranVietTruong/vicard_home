@@ -15,6 +15,10 @@ p{
 ul {
 	list-style-type: none;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .menu {
     height: 70px;
@@ -174,7 +178,7 @@ section#huongdan svg {
 /*==============================*/
 
 section#mua {
-    padding: 100px;
+    padding-top: 50px;
 }
 
 .dat_mua {
