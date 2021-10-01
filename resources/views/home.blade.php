@@ -49,7 +49,7 @@
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VL8VHYKYQW"></script>
+   {{--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VL8VHYKYQW"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -57,7 +57,7 @@
 
       gtag('config', 'G-VL8VHYKYQW');
     </script>
-
+ --}}
 </head>
 <body>
     <header>
