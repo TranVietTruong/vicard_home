@@ -66,7 +66,7 @@
                 <div class="three columns">
                     <div class="logo">
                         <a href="{{asset('')}}">
-                            <img src="{{ asset('logo.png') }}" alt="">
+                            <img src="{{ asset('logo.png') }}" alt="logo webite vicard">
                         </a>
                     </div>
                 </div>  
