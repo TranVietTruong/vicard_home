@@ -1,0 +1,298 @@
+header {
+    height: 70px;
+    min-height: 50px;
+    background: #fff;
+    box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+p{
+	font-size: 16px;
+}
+ul {
+	list-style-type: none;
+}
+
+.menu {
+    height: 70px;
+}
+
+.logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+	list-style-type: none;
+	height: inherit;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0;
+	margin-left: 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#trangchu {
+    padding-top: 70px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url(img/background2.png);*/
+    background: url(img/background2.png) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000a1;
+}
+
+.trangchu {
+ 	text-align: center;
+ 	color: white;
+}
+.trangchu h1{
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+
+/*===================*/
+#tinhnang {
+	padding: 100px 0px;
+	background-color: #303539;
+	background-image: url(img/bg.png);
+	background-size: cover;
+	position: relative;
+	color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#tinhnang .content .info {
+	padding-right: 50px;
+}
+
+#tinhnang .img {
+	width: 450px;
+	min-width: 450px;
+}
+#tinhnang img {
+	width: 100%;
+}
+
+.bg-overlay {
+    background-color: rgba(60,72,88,.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*===================================*/
+#loiich {
+	padding: 100px 0;
+}
+
+#loiich .img {
+	width: 300px;
+	min-width: 300px;
+}
+
+#loiich .img img {
+	width: 100%;
+}
+
+#loiich .content .text {
+	padding-left: 80px;
+}
+
+#loiich .content .text ul li{
+	display: flex;
+	text-align: center;
+    padding: 9px 0px;
+}
+
+#loiich .content .text ul li span{
+	margin-left: 10px;
+}
+
+#loiich .content .text ul li svg{
+	filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(
+68deg) brightness(119%) contrast(119%);
+}
+
+
+/*=============================*/
+section#huongdan {
+    background: #38434f;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section#huongdan svg {
+	filter: invert(100%) sepia(0%) saturate(100%) hue-rotate( 
+43deg) brightness(119%) contrast(119%);
+	transform: scale(1.5);
+}
+
+.step_child {
+    width: 250px;
+}
+
+/*==============================*/
+
+section#mua {
+    padding: 100px;
+}
+
+.dat_mua {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dat_mua img {
+    width: 100%;
+}
+
+.thumb {
+    width: 350px;
+    margin: 0 50px;
+    position: relative;
+}
+
+.content_image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.des {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.name {
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    background: #060606;
+    bottom: 6%;
+    left: 2%;
+    color: white;
+    line-height: 60px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+
+.form {
+    width: 400px;
+    margin: 40px;
+}
+
+.form input {
+    width: 100%;
+    height: 45px;
+}
+.price {
+	padding: 15px;
+}
+
+span.price_origin {
+	text-decoration: line-through;
+	color: #828282;
+	font-size: 22px;
+}
+
+span.price_promotion {
+    margin-left: 30px;
+    font-size: 35px;
+    color: #00bc00;
+}
+
+.freeship svg{
+	filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(
+68deg) brightness(119%) contrast(119%);
+}
+
+.freeship {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+/*=======================*/
+
+footer#footer {
+    background: #38434f;
+    color: white;
+    padding-top: 50px;
+    color: #d4d4d4;
+}
+
+.head {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+ul.diachia {
+    margin-top: 10px;
+}
+
+ul.diachia li {
+    display: flex;
+
+}
+
+ul.diachia li span {
+    margin-left: 10px;
+}
+
+ul.diachia li svg {
+   filter: invert(100%) sepia(0%) saturate(100%) hue-rotate( 
+43deg) brightness(119%) contrast(119%);
+}
+
+footer#footer ul li:hover {
+	cursor: pointer;
+	color: white;
+}
+
