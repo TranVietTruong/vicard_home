@@ -4,7 +4,7 @@ header {
     background: #fff;
     box-shadow: 0 0 3px rgb(60 72 88 / 15%);
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
     z-index: 99999;
@@ -336,6 +336,7 @@ footer#footer ul li:hover {
 		display: flex;
 		align-items: center;
 		cursor: pointer;
+		margin-right: 20px;
 	}
 
 	.visible {
