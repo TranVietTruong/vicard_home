@@ -103,6 +103,19 @@
           }
         }
     </script>
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "SoftwareApplication",
+          "name" : "Danh thiếp điện tử đầu tiên tại Việt Nam",
+          "image" : [ "https://lh3.googleusercontent.com/g7Sqp1_kM4ejb6xBa1lg_zZoEkPy4L375lQGiZjIRytz4Ff6xjAjyV3ljF7-2w3SRJxHFmpbSzoyHWsKPgdD0yrM2wmI30M5jWXdjleY-3cP2wR4kHVzolDZC2xWUdomn-iSM7ku-s_PF6MEDwdQyPV3GQlOrRFKPyNek8TgjFr3dhoBST16cZMBMkuwzS2lG9wkjG3twp86MeNhd6dqnTk7usAqs_7lnBpEArVjtg68lnf0-3pmb25rq2C-KUQih1VBT01mNk4uv_G3gCkob7UiJG8pEHffHQ73Xz9eMovd5kq7eeL-F1urrBk1hhfPO7U2FjOQX60aMSbNyEobw2uhA8GHxI4IyUL5b-J9Wzed54pCgiC56sTyiiJZCi2bahpKqCAquA17d4z50TJcfWJBCbGi4WUjP-33g6RAidzzYHjb7sZLY0Nr12kYq6JUnkoK-sdXSABw8JJ4vgQwWzcrk3FiRZ41we4CSvP5Ky26o3LqyaaH_bmNbBrtbpdMZ9k6-P50U1nKplN3rmb9WbdY7kw6nGt2vlUoQQVhfkQa4Yd8lv7MIgz6ViCenNOtYn3lCf7CVJew4OxtbH9qEN0OMNgokYjUyHQp6KGbuPFAIyKcrZ0Acxub_1KAYFlpfoAsevFIJPS_sa_rFt0TPj4BnoOBKHuHDhZjp-ZtXSIFkPtN_T4bDq02gQEM3NoTeLXpu73EHmJveNJfh9HxqsY=w1125-h675-no?authuser=0", "https://lh3.googleusercontent.com/jCnbdtakrK2urZDA6uTVfaN_DPfKVubO7QCGADOH1PA6mYKu_CfB5mhg5KwF5HCsQhbyu1uwruNgEVgTShlwo20r6tRyKo-E0NzzqpscuUP2J_J8um6tEH9j8L6kFOpKfP8-0nDqg_U_lNfnw0FyaPGg9x63siI9EPCgrvteqVKdx5EFTTdle0jYyCVy1cItzMXxuKYVJL4AenvU9E5uP79TkcPkgvlA4jZq1nrzeDos_NcYc-UvLdn1p-S4HQXuhbRvrL93MLR_g9tOh9sNJstCTFMbuQuI4shD380m3j0FlV-p-MdSoXCrC0Z8gr9UVSvqy5yOyyqUas7o7nMejo0d5h-eMsQu1qv3m-KJsxF46mWNSpco6L_BlfzEvTsQhl4eESEPLNQIilxRokGD-ekmLtisvB8rW1ay61ssOzkMmruoFu26emf8IstxCcLhv5Que47RR17D_6mBaGjPfmBb_6v-_cKLfihkKW3-5UBO9ZBPUFNEvwV-9kjdsekC0PP5B4Q3CzcELP28drPA4hLXdT7lqZTJBTrOGWiorKYKA3ZY-ykSYeZNB03JvWGI6b7Gi8oMbCFyve8ja0N0Jufd8WkwqQk47mXsLKe-B_U9vAaMFXgpre2bQD3H8y6zmN185kPfnr2uMckyl6HLSpQ9xLNgKCAbZ-80AIYJ60R18USmp-0yaFP27oZgphulCaCJ8ZiqdcC1wngqNh5k0kI=w1125-h675-no?authuser=0" ],
+          "url" : "https://vicard.vn/",
+          "author" : {
+            "@type" : "Person",
+            "name" : "vicard.vn"
+          }
+        }
+    </script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
