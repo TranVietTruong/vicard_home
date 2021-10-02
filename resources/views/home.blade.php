@@ -24,6 +24,7 @@
     <meta property="og:image:alt" content="vicard - danh thiếp điện tử">
 
     <meta property="twitter:type" content="website">
+    <meta property="twitter:site" content="@vicard">
     <meta property="twitter:card" content="summary">
     <meta property="twitter:creator" content="@vicard">
     <meta property="twitter:title" content="VICARD - Danh thiếp điện tử đầu tiên tại Việt Nam">
