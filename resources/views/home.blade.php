@@ -23,7 +23,6 @@
     <meta property="og:image" content="{{asset('thumbnail.png')}}">
     <meta property="og:image:alt" content="vicard - danh thiếp điện tử">
 
-    <meta property="twitter:type" content="website">
     <meta property="twitter:site" content="@vicard">
     <meta property="twitter:card" content="summary">
     <meta property="twitter:creator" content="@vicard">
