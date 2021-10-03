@@ -46,21 +46,11 @@
 
     <section id="content">
         <div class="container">
-            <h4>GIAO HÀNG VÀ THANH TOÁN</h4>
-            <h5>1. Thời gian xử lý đơn hàng để vận chuyển</h5>
-            <ul>
-                <li>- Toàn bộ đơn hàng sẽ được xác nhận thông tin đơn hàng trong vòng 12h kể từ khi đặt hàng.</li>
-                <li>- Đơn hàng sẽ được nhà máy sản xuất trong khoảng thời gian từ 2-3 ngày ngay sau khi xác nhận thông tin đơn hàng.</li>
-                <li>- Đơn hàng sẽ được đóng gói và vận chuyển trong khoảng thời gian từ 1-2 ngày ngay sau khi sản xuất đơn hàng.</li>
-                <li>- Đơn hàng không được vận chuyển hoặc giao vào ngày nghỉ (chủ nhật hoặc lễ tết).</li>
-                <li>- Nếu quá trình xử lý đơn và vận chuyển bị gián đoạn và chậm trễ chúng tôi sẽ thông báo lại cho quý khách hàng qua email hoặc điện thoại.</li>
-                <h4>2. Thời gian làm việc</h4>
-                <p> Tất cả các ngày trong tuần từ thứ 2 đến thứ 7.</p>
-                <h4>3. Phí vận chuyển</h4>
-                <p>Tất cả đơn hàng được miễn phí giao hàng toàn quốc</p>
-                <h4>5. Phương thức thanh toán</h4>
-                <p>Thanh toán chuyển khoản:Quý khách có thể chuyển khoản tới trực tiếp cho chúng tôi <a href="/thong-tin-chuyen-khoan"> tại đây</a></p>
-            </ul>
+            <h4>THIẾT BỊ TƯƠNG THÍCH</h4>
+            <h5>1. CHỨC NĂNG “QUÉT” QR CODE </h5>
+            <p>Hầu hết các SmartPhone hiện nay đều tương thích với chức năng “Quét” QR code.</p>
+            <h5>2. CHỨC NĂNG “CHẠM”</h5>
+            <b>Apple</b>
         </div>
     </section>
 

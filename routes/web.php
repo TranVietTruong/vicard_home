@@ -32,3 +32,9 @@ Route::get('/giao-hang-va-thanh-toan', function () {
 Route::get('thong-tin-chuyen-khoan', function () {
     return view('thongtinchuyenkhoan');
 });
+Route::get('thiet-bi-tuong-thich', function () {
+    return view('thietbituongthich');
+});
+Route::get('huong-dan-thay-doi-thong-tin', function () {
+    return view('huongdanthaydoithongtin');
+});

@@ -46,21 +46,30 @@
 
     <section id="content">
         <div class="container">
-            <h4>GIAO HÀNG VÀ THANH TOÁN</h4>
-            <h5>1. Thời gian xử lý đơn hàng để vận chuyển</h5>
-            <ul>
-                <li>- Toàn bộ đơn hàng sẽ được xác nhận thông tin đơn hàng trong vòng 12h kể từ khi đặt hàng.</li>
-                <li>- Đơn hàng sẽ được nhà máy sản xuất trong khoảng thời gian từ 2-3 ngày ngay sau khi xác nhận thông tin đơn hàng.</li>
-                <li>- Đơn hàng sẽ được đóng gói và vận chuyển trong khoảng thời gian từ 1-2 ngày ngay sau khi sản xuất đơn hàng.</li>
-                <li>- Đơn hàng không được vận chuyển hoặc giao vào ngày nghỉ (chủ nhật hoặc lễ tết).</li>
-                <li>- Nếu quá trình xử lý đơn và vận chuyển bị gián đoạn và chậm trễ chúng tôi sẽ thông báo lại cho quý khách hàng qua email hoặc điện thoại.</li>
-                <h4>2. Thời gian làm việc</h4>
-                <p> Tất cả các ngày trong tuần từ thứ 2 đến thứ 7.</p>
-                <h4>3. Phí vận chuyển</h4>
-                <p>Tất cả đơn hàng được miễn phí giao hàng toàn quốc</p>
-                <h4>5. Phương thức thanh toán</h4>
-                <p>Thanh toán chuyển khoản:Quý khách có thể chuyển khoản tới trực tiếp cho chúng tôi <a href="/thong-tin-chuyen-khoan"> tại đây</a></p>
-            </ul>
+            <h4>HƯỚNG DẪN SỬ DỤNG</h4>
+            <h5>1. HƯỚNG DẪN KÍCH HOẠT VÀ ĐĂNG KÝ TÀI KHOẢN</h5>
+            <p>- Chạm thẻ/quét mã qr code trên smartphone của bạn hoặc truy cập <a href="https://info.vicard.vn">https://info.vicard.vn</a> để tạo tài khoản mới.</p>
+            <p>- Điền đầy đủ các thông tin vào trang Đăng ký tài khoản theo hướng dẫn cụ thể</p>
+            <img width="100%" height="100%" src="{{asset('assets/support/register.jpg')}}">
+            <p>- Sau khi đăng ký thành công, hệ thống sẽ tự động đăng nhập hoặc bạn có thể đăng nhập tại đây <a href="https://info.vicard.vn/login">https://info.vicard.vn/login</a></p>
+            <h5>2. HƯỚNG DẪN QUẢN LÝ THÔNG TIN TÀI KHOẢN</h5>
+            <p><b>1. Thông tin cơ bản:</b></p>
+            <p>Sau khi đăng nhập, hệ thống sẽ chuyển bạn đến trang quản lý thông tin. Hãy nhấn vào ảnh đại diện để tại ảnh lên, nhập tên bạn muốn hiển thị và mô tả ngắn gọn về bản thân.</p>
+            <img width="100%" height="100%" src="{{asset('assets/support/info.jpg')}}">
+            <p><b>2. Chỉnh sửa đường dẫn:</b></p>
+            <p> Tiếp theo, để thêm vào danh thiếp điện tử các thông tin mạng xã hội Facebook, Zalo, Instagram, TikTok … Các bạn đến phần "THÔNG TIN LIÊN HỆ", chọn "THÊM". Hệ thống sẽ cho bạn chọn loại tài khoản và thêm đường link phù hợp</p>
+            <img width="100%" height="100%" src="{{asset('assets/support/share.jpg')}}">
+            <p><b>3. Thay đổi giao diện hiển thị: </b></p>
+            <p>Các bạn nhấn vào Tài Khoản ở góc trên bên phải và chọn mục "Đổi mẫu website". </p>
+            <img width="100%" height="100%" src="{{asset('assets/support/ui.jpg')}}">
+            <p>Nhấn vào giao diện muốn chọn và nhấn đồng ý để thay đổi mẫu website theo ý của bạn.</p>
+            <h4>3. HƯỚNG DẪN CÁCH LẤY LINK MẠNG XÃ HỘI</h4>
+            <p>Hướng dẫn lấy link <b><a href="https://www.thegioididong.com/game-app/cach-lay-link-trang-ca-nhan-fanpage-link-bai-viet-tren-1293304">Facebook</a></b></p>
+            <p>Hướng dẫn lấy link <b><a href="https://www.thegioididong.com/game-app/cach-lay-sao-chep-link-instagram-ca-nhan-hoac-cua-nguoi-khac-1295177">Instagram</a></b></p>
+            <p>Hướng dẫn lấy link <b><a href="https://quantrimang.com/cach-lay-link-video-youtube-tren-dien-thoai-may-tinh-150064">Youtube</a></b></p>
+            <p>Hướng dẫn lấy link <b><a href="https://www.thegioididong.com/game-app/cach-tao-duong-link-lien-ket-chuyen-tien-tren-momo-cuc-nhanh-1294525">Momo</a></b></p>
+            <p>Hướng dẫn lấy link <b><a href="https://tamblogs.com/cach-lay-link-video-tik-tok/">Tiktok</a></b></p>
+            <p>Đối với link <b>Zalo</b> các bạn soạn theo cú pháp sau <b>https://zalo.me/số_điện_thoại_của_bạn</b> </p>
         </div>
     </section>
 

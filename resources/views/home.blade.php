@@ -307,9 +307,12 @@
                         Hướng dẫn
                     </div>
                     <ul>
-                        <li>Hướng dẫn mua hàng</li>
-                        <li>Hướng dẫn thay đổi thông tin</li>
-                        <li>Thiết bị tương thích</li>
+                        <li>
+                            <a href="/huong-dan-thay-doi-thong-tin">Hướng dẫn thay đổi thông tin</a>
+                        </li>
+                        <li>
+                            <a href="/thiet-bi-tuong-thich">Thiết bị tương thích</a>
+                        </li>
                         <li>Câu hỏi thường gặp</li>
                     </ul>
                 </div>
