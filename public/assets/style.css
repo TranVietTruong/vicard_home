@@ -250,6 +250,8 @@ section#mua {
 }
 .price {
 	padding: 15px;
+	display: flex;
+    align-items: center;
 }
 
 span.price_origin {
@@ -298,6 +300,7 @@ ul.diachia {
 
 ul.diachia li {
     display: flex;
+    margin: 20px 0;
 
 }
 
@@ -308,6 +311,8 @@ ul.diachia li span {
 ul.diachia li svg {
    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(
 43deg) brightness(119%) contrast(119%);
+	min-width: 20px;
+	max-width: 20px;
 }
 
 footer#footer ul li:hover {
@@ -333,6 +338,7 @@ section#content {
 
 	.logo img {
 	    height: 40px;
+	    width: 85%;
 	}
 	.menu {
 		display: none !important;
@@ -423,6 +429,9 @@ section#content {
 	}
 	#mua .form {
 	    width: 100%;
+	}
+	#mua span.price_promotion {
+	    font-size: 30px;
 	}
 }
 
