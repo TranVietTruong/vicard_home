@@ -22,7 +22,7 @@
 
                 </ul>
             </div>
-            <div class="four columns">
+            <div class="three columns">
                 <div class="head">
                     Thông tin khác
                 </div>
@@ -44,7 +44,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="three columns">
+            <div class="four columns">
                 <div class="head">
                     Hướng dẫn
                 </div>
@@ -57,6 +57,7 @@
                     </li>
                     <li>Câu hỏi thường gặp</li>
                 </ul>
+                <div class="fb-page" data-href="https://www.facebook.com/vicard.vn/?ref=page_internal" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/vicard.vn/?ref=page_internal" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vicard.vn/?ref=page_internal">Vicard.vn - Danh Thiếp Điện Tử đầu tiên tại Việt Nam</a></blockquote></div>
             </div>
         </div>
     </div>
