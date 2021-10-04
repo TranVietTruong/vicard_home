@@ -230,18 +230,53 @@
                         <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/bcd67l2kjygssmbzqegb.png" alt="Mặt sau thẻ vicard">
                     </div>
                 </div>
-                <div class="form">
+                <div id="form" class="form">
                     <div class="price">
                         <span class="price_origin">500,000đ</span>
                         <span class="price_promotion">359,000đ</span>
                     </div>
-                    <form action="">
-                        <label for="name">Tên của bạn</label>
-                        <input onkeyup="changeText()" maxlength="22" id="name" type="text" placeholder="Nhập tên của bạn">
-                        <label for="name">Số điện thoại</label>
-                        <input id="mobile" type="text" placeholder="Nhập số điện thoại của bạn">
-                        <label for="name">Địa chỉ giao hàng</label>
-                        <input id="address" type="text" placeholder="Nhập địa chỉ giao hàng của bạn">
+                    <form action="{{url('thanh-toan')}}" method="post">
+                        @csrf
+                        <label for="name">Tên của bạn (tên trên thẻ) *</label>
+                        <input
+                            onkeyup="changeText()"
+                            maxlength="22"
+                            id="name"
+                            name="name"
+                            type="text"
+                            placeholder="Nhập tên của bạn">
+                        @if($errors->has('name'))
+                            <small style="color: #dc0000;">{{$errors->first('name') }}</small>
+                        @endif
+                        <label for="email">Email của bạn *</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            maxlength="50"
+                            placeholder="Nhập địa chỉ email của bạn">
+                        @if($errors->has('email'))
+                            <small style="color: #dc0000;">{{$errors->first('email') }}</small>
+                        @endif
+                        <label for="mobile">Số điện thoại *</label>
+                        <input
+                            id="mobile"
+                            name="mobile"
+                            type="text"
+                            maxlength="10"
+                            placeholder="Nhập số điện thoại của bạn">
+                        @if($errors->has('mobile'))
+                            <small style="color: #dc0000;">{{$errors->first('mobile') }}</small>
+                        @endif
+                        <label for="address">Địa chỉ giao hàng *</label>
+                        <input
+                            id="address"
+                            name="address"
+                            type="text"
+                            placeholder="Nhập địa chỉ giao hàng của bạn">
+                        @if($errors->has('address'))
+                            <small style="color: #dc0000;">{{$errors->first('address') }}</small>
+                        @endif
                         <div class="freeship">
                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z"/></svg>
                             <span style="margin-left: 10px;font-weight: bold;">Miễn phí giao hàng toàn quốc</span>
@@ -292,6 +327,10 @@
             scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
             hideMenu();
         }
+
+        @if($errors->any())
+          window.smoothScroll(document.getElementById('form'));
+        @endif
 
         function showMenu() {
             let menu = document.getElementById('fix_menu_mobile');

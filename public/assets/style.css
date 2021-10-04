@@ -329,9 +329,7 @@ section#content {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 750px) {
-	html,body {
-		overflow-x: hidden;	
-	}
+	html,body{overflow-x: hidden;}
 	header {
     	height: 55px;
 	}

@@ -38,3 +38,7 @@ Route::get('thiet-bi-tuong-thich', function () {
 Route::get('huong-dan-thay-doi-thong-tin', function () {
     return view('huongdanthaydoithongtin');
 });
+Route::get('thanh-toan-thanh-cong', function () {
+    return view('thanhtoanthanhcong');
+});
+Route::post('/thanh-toan', [\App\Http\Controllers\HomeController::class, 'order']);
