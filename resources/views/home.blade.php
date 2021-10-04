@@ -34,11 +34,11 @@
     <link rel="shortcut icon" href="{{asset('icon.png')}}" type="image/x-icon" />
     <title>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</title>
     <link rel="canonical" href="{{asset('')}}" />
-{{-- 
-    <link rel="stylesheet" href="{{asset('assets/skeleton.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/style.css')}}"> --}}
 
-    @include('components/css')
+    <link rel="stylesheet" href="{{asset('assets/skeleton.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/style.css')}}">
+
+    {{-- @include('components/css') --}}
 
     @include('components/schema')
 
