@@ -36,6 +36,8 @@
     <link rel="canonical" href="{{asset('')}}" />
 
     @include('components/css')
+    
+    @include('components/ga')
 </head>
 <body>
 

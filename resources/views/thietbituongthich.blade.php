@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="{{asset('assets/style.css')}}"> --}}
 
     @include('components/css')
+
+    @include('components/ga')
 </head>
 <body>
 
