@@ -20,6 +20,7 @@ class OrderEmail extends Mailable
 
     public function __construct($name, $mobile, $code_tag)
     {
+        $this->subject('VICARD - CHI TIẾT ĐƠN HÀNG');
         $this->name = $name;
         $this->mobile = $mobile;
         $this->code_tag = $code_tag;

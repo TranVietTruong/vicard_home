@@ -42,7 +42,7 @@ class SendEmailOrder implements ShouldQueue
             Mail::to($this->order->email)->send(new OrderEmail($this->order->name, $this->order->mobile, $this->order->code_tag));
             $order = Order::where('id', $this->order->id)->first();
             if($order) {
-                $order->send_order_email = 1;
+                $order->send_email_order = 1;
                 $order->save();
             }
         }

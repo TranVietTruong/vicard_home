@@ -60,6 +60,6 @@ class HomeController extends Controller
         $order->code_tag = rand(100000, 999999);
         $order->save();
         SendEmailOrder::dispatch($order);
-        return redirect('/thanh-toan-thanh-cong')->with('email', $request->email);
+        return redirect('/thanh-toan-thanh-cong')->with('order', $order);
     }
 }

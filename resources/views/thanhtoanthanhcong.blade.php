@@ -47,16 +47,16 @@
     @include('components/header')
 
     <section id="content" style="padding: 30px 0;">
-        @if (Session::has('email'))
+        @if (Session::has('order'))
             <div class="container">
                 <div style="text-align:center;">
                     <img width="150px" height="100%" src="{{asset('assets/img/success.png')}}" alt="thanh cong">
-                    <p style="margin-top: 10px;">Cảm ơn bạn đã sử dụng dịch vụ của Vicard. Thông tin chi tiết đơn hàng đã được gửi đến email {{Session::get('email')}}. Xin vui lòng thanh toán để hoàn tất đơn hàng. Email xác nhận thanh toán sẽ được gửi đến bạn chậm nhất sau 12h.</p>
+                    <p style="margin-top: 10px;">Cảm ơn bạn đã sử dụng dịch vụ của Vicard. Thông tin chi tiết đơn hàng đã được gửi đến email {{Session::get('order')->email}}. Xin vui lòng thanh toán để hoàn tất đơn hàng. Email xác nhận thanh toán sẽ được gửi đến bạn chậm nhất sau 12h.</p>
                 </div>
                 <ul>
                     <li>Đơn giá: <b>359,000đ</b></li>
                     <li>Hình thức thanh toán: <b>Chuyển khoản</b></li>
-                    <li>Nội dung: <b>463794 03657675295</b></li>
+                    <li>Nội dung: <b>{{Session::get('order')->code_tag}} {{Session::get('order')->mobile}}</b></li>
                 </ul>
                 <hr>
                 <ul>
@@ -73,7 +73,12 @@
                     <li>Chi nhánh: <b>ACB - CN CHUA HA</b></li>
                 </ul>
             </div>
+        @else
+            <script>
+                window.location.href = 'https://vicard.vn/'
+            </script>
         @endif
+
     </section>
 
     @include('components/footer')
