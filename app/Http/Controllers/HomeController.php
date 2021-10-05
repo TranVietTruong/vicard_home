@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendEmailOrder;
 use App\Models\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -57,6 +58,7 @@ class HomeController extends Controller
         $order = new Order();
         $order->fill($request->all());
         $order->save();
+        SendEmailOrder::dispatch($order->email);
         return redirect('/thanh-toan-thanh-cong')->with('email', $request->email);
     }
 }
