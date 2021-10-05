@@ -3,6 +3,7 @@
 namespace App\Jobs;
 
 use App\Mail\OrderEmail;
+use App\Models\Order;
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
@@ -22,11 +23,11 @@ class SendEmailOrder implements ShouldQueue
      *
      * @return void
      */
-    public $email;
+    public $order;
 
-    public function __construct($email)
+    public function __construct($order)
     {
-        $this->email = $email;
+        $this->order = $order;
     }
 
     /**
@@ -38,7 +39,12 @@ class SendEmailOrder implements ShouldQueue
     {
         try
         {
-            Mail::to($this->email)->send(new OrderEmail());
+            Mail::to($this->order->email)->send(new OrderEmail($this->order->name, $this->order->mobile, $this->order->code_tag));
+            $order = Order::where('id', $this->order->id)->first();
+            if($order) {
+                $order->send_order_email = 1;
+                $order->save();
+            }
         }
         catch (\Exception $e)
         {

@@ -16,9 +16,13 @@ class OrderEmail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $name, $mobile, $code_tag;
+
+    public function __construct($name, $mobile, $code_tag)
     {
-        //
+        $this->name = $name;
+        $this->mobile = $mobile;
+        $this->code_tag = $code_tag;
     }
 
     /**
@@ -28,6 +32,10 @@ class OrderEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.sendOrderEmail');
+        return $this->view('mail.sendOrderEmail')->with([
+            'name' => $this->name,
+            'mobile' => $this->mobile,
+            'code_tag' => $this->code_tag
+        ]);
     }
 }
