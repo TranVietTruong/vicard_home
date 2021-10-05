@@ -8,8 +8,44 @@
 
 
 <url>
-  <loc>http://www.vicard.vn/</loc>
-  <lastmod>2021-09-25T12:27:07+00:00</lastmod>
+  <loc>https://vicard.vn/</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/chinh-sach-bao-mat</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/dieu-khoan-dich-vu</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/chinh-sach-doi-tra</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/giao-hang-va-thanh-toan</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/thong-tin-chuyen-khoan</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/huong-dan-thay-doi-thong-tin</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vicard.vn/thiet-bi-tuong-thich</loc>
+  <lastmod>2021-10-05T14:52:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
