@@ -39,8 +39,6 @@
     <link rel="stylesheet" href="{{asset('assets/style.css')}}"> --}}
 
     @include('components/css')
-
-    @include('components/ga')
 </head>
 <body>
 
@@ -123,5 +121,6 @@
             icon_hide.classList.remove("visible");
         }
     </script>
+    @include('components/ga')
 </body>
 </html>

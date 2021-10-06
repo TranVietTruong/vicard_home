@@ -39,8 +39,6 @@
     <link rel="stylesheet" href="{{asset('assets/style.css')}}"> --}}
 
     @include('components/css')
-    
-    @include('components/ga')
 </head>
 <body>
 
@@ -69,5 +67,63 @@
     </section>
 
     @include('components/footer')
+
+    <script>
+      function changeText()
+      {
+        let name = document.getElementById('name').value;
+        if(name) {
+          document.getElementById('replace_name').innerText = name;
+        }
+        else {
+          document.getElementById('replace_name').innerText = 'TÊN CỦA BẠN';
+        }
+
+      }
+
+      window.smoothScroll = function(target) {
+        var scrollContainer = target;
+        do { //find scroll container
+          scrollContainer = scrollContainer.parentNode;
+          if (!scrollContainer) return;
+          scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+          if (target == scrollContainer) break;
+          targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function(c, a, b, i) {
+          i++; if (i > 30) return;
+          c.scrollTop = a + (b - a) / 30 * i;
+          setTimeout(function(){ scroll(c, a, b, i); }, 20);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        hideMenu();
+      }
+
+      function showMenu() {
+        let menu = document.getElementById('fix_menu_mobile');
+        menu.className += " visible";
+        let icon_show = document.getElementById('icon_show');
+        icon_show.className += " hide";
+        let icon_hide = document.getElementById('icon_hide');
+        icon_hide.className += " visible";
+      }
+
+      function hideMenu() {
+        let menu = document.getElementById('fix_menu_mobile');
+        menu.classList.remove("visible");
+        let icon_show = document.getElementById('icon_show');
+        icon_show.classList.remove("hide");
+        let icon_hide = document.getElementById('icon_hide');
+        icon_hide.classList.remove("visible");
+      }
+    </script>
+
+    @include('components/ga')
 </body>
 </html>

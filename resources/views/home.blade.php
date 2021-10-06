@@ -38,12 +38,10 @@
     <link rel="stylesheet" href="{{asset('assets/skeleton.css')}}">
     <link rel="stylesheet" href="{{asset('assets/style.css')}}">
 
-    {{-- @include('components/css') --}}
+{{--     @include('components/css')--}}
 
     @include('components/schema')
 
-
-    @include('components/ga')
 </head>
 <body>
     {{-- <div id="fb-root"></div>
@@ -101,7 +99,7 @@
             </div>
         </div>
     </header>
-    <section id="trangchu">
+    <section id="trangchu" class="lazyload" data-bg="https://res.cloudinary.com/truongtv/image/upload/v1633346541/vicard/sps3qyay5om2uwbuwdfz.png">
         {{-- <img class="bg" src="{{ asset('assets/img/background2.png') }}" alt=""> --}}
         <div class="overlay"></div>
         <div class="trangchu container">
@@ -110,7 +108,7 @@
             <button onclick="smoothScroll(document.getElementById('mua'))" class="button button-primary"> Đặt Mua </button>
         </div>
     </section>
-    <section id="tinhnang">
+    <section id="tinhnang" class="lazyload" data-bg="https://res.cloudinary.com/truongtv/image/upload/v1633346536/vicard/ibvdzhf7jp9xmmeexmvq.png">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="content">
@@ -120,7 +118,7 @@
                 </div>
                 <div class="img">
                     {{-- <img src="{{ asset('assets/img/logo-social.png') }}" alt=""> --}}
-                    <img src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/izmdeyqqqhghzuendral.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
+                    <img class="lazyload" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/izmdeyqqqhghzuendral.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
                 </div>
             </div>
         </div>
@@ -130,7 +128,7 @@
             <div class="content">
                 <div class="img">
                     {{-- <img src="{{ asset('assets/img/tinhnang.png') }}" alt=""> --}}
-                    <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/xitewggfonbsqemxv5dl.png" alt="Cách thức hoạt động của thẻ vicard">
+                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/xitewggfonbsqemxv5dl.png" alt="Cách thức hoạt động của thẻ vicard">
                 </div>
                 <div class="text">
                     <h3>Không cần cài đặt thêm bất cứ phần mềm nào</h3>
@@ -222,12 +220,12 @@
                 <div class="content_image">
                     <div class="thumb">
                         {{-- <img src="{{ asset('assets/img/front.png') }}" alt=""> --}}
-                        <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/pb3yvuumqzxaqxzeef7f.png" alt="Mặt trước thẻ vicard">
+                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/pb3yvuumqzxaqxzeef7f.png" alt="Mặt trước thẻ vicard">
                         <div id="replace_name" class="name">TÊN CỦA BẠN</div>
                     </div>
                     <div class="thumb">
                         {{-- <img src="{{ asset('assets/img/back.png') }}" alt=""> --}}
-                        <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/bcd67l2kjygssmbzqegb.png" alt="Mặt sau thẻ vicard">
+                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/bcd67l2kjygssmbzqegb.png" alt="Mặt sau thẻ vicard">
                     </div>
                 </div>
                 <div id="form" class="form">
@@ -349,6 +347,16 @@
             let icon_hide = document.getElementById('icon_hide');
             icon_hide.classList.remove("visible");
         }
+
+        //add simple support for background images:
+        document.addEventListener('lazybeforeunveil', function(e){
+          var bg = e.target.getAttribute('data-bg');
+          if(bg){
+            e.target.style.backgroundImage = 'url(' + bg + ')';
+          }
+        });
     </script>
+    <script src="{{asset('assets/lazysizes.js')}}"></script>
+    @include('components/ga')
 </body>
 </html>

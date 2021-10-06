@@ -71,7 +71,7 @@ a {
     justify-content: center;
     align-items: center;
     /*background-image: url(img/background2.png);*/
-    background: url(https://res.cloudinary.com/truongtv/image/upload/v1633346541/vicard/sps3qyay5om2uwbuwdfz.png) no-repeat center center;
+    background: no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -101,7 +101,7 @@ a {
 	padding: 100px 0px;
 	background-color: #303539;
 	/*background-image: url(img/bg.png);*/
-	background-image: url(https://res.cloudinary.com/truongtv/image/upload/v1633346536/vicard/ibvdzhf7jp9xmmeexmvq.png);
+	/*background-image: url(https://res.cloudinary.com/truongtv/image/upload/v1633346536/vicard/ibvdzhf7jp9xmmeexmvq.png);*/
 	background-size: cover;
 	position: relative;
 	color: white;
