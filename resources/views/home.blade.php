@@ -51,7 +51,7 @@
             <div class="header">
                 <div class="logo">
                     <a href="{{asset('')}}">
-                        <img width="100%" height="50px" src="{{ asset('logo.png') }}" alt="logo website vicard">
+                        <img class="lazyload" width="100%" height="50px" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633744512/logo/mgdjnff7fagnafmzcfhg.png" alt="logo website vicard">
                     </a>
                 </div>
                 <div class="menu">
@@ -109,7 +109,7 @@
                     <button style="margin-left: 10px;" class="button">Xem Thêm</button>
                 </div>
                 <div class="thumb-pc">
-                    <img width="100%" height="100%" src="{{asset('assets/img/phone-card.png')}}" alt="">
+                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633744627/vicard/ifdojxnqgmusyqxfz4m3.png" alt="">
                 </div>
             </div>
         </div>
