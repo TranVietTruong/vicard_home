@@ -134,7 +134,7 @@
             <div class="content">
                 <div class="img">
                     {{-- <img src="{{ asset('assets/img/tinhnang.png') }}" alt=""> --}}
-                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/xitewggfonbsqemxv5dl.png" alt="Cách thức hoạt động của thẻ vicard">
+                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633747243/vicard/fewqbya9lvuhbfjxruhp.png" alt="Cách thức hoạt động của thẻ vicard">
                 </div>
                 <div class="text">
                     <h3>Không cần cài đặt thêm bất cứ phần mềm nào</h3>
