@@ -109,7 +109,7 @@
                     <button style="margin-left: 10px;" class="button">Xem Thêm</button>
                 </div>
                 <div class="thumb-pc">
-                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633744627/vicard/ifdojxnqgmusyqxfz4m3.png" alt="">
+                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633744627/vicard/ifdojxnqgmusyqxfz4m3.png" alt="Danh thiếp điện tử vicard">
                 </div>
             </div>
         </div>
