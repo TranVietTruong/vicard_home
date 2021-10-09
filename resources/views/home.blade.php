@@ -294,7 +294,8 @@
         </div>
     </section>
     @include('components/footer')
-
+    
+    <script src="{{asset('assets/lazysizes.js')}}"></script>
     <script>
         function changeText()
         {
@@ -362,7 +363,7 @@
           }
         });
     </script>
-    <script src="{{asset('assets/lazysizes.js')}}"></script>
+    
     @include('components/ga')
 </body>
 </html>
