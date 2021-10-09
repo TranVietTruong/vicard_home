@@ -79,6 +79,8 @@ img {image-rendering: -webkit-optimize-contrast;}
 }
 .trangchu h1{
     font-size: 2.8em;
+    letter-spacing: 2px;
+    line-height: inherit;
 }
 
 

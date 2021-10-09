@@ -103,7 +103,7 @@
         <div class="container">
             <div class="content">
                 <div class="trangchu">
-                    <h1>Danh thiếp điện tử đầu tiên tại Việt Nam</h1>
+                    <h1>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</h1>
                     <p style="font-size: 20px">Chia sẻ thông tin trong 1 giây</p>
                     <button onclick="smoothScroll(document.getElementById('mua'))" class="button button-primary"> Đặt Mua </button>
                     <button style="margin-left: 10px;" class="button">Xem Thêm</button>
