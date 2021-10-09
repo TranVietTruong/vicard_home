@@ -20,7 +20,7 @@
     <meta property="og:title" content="VICARD - Danh thiếp điện tử đầu tiên tại Việt Nam">
     <meta property="og:url" content="{{asset('')}}">
     <meta property="og:description" content="Vicard cung cấp danh thiếp điện tử và nền tảng giúp người dùng tích hợp tất cả thông tin cần thiết mà người dùng sử dụng để Trao Đổi và Kết Nối chỉ với 1 lần chạm thẻ trên điện thoại thông minh">
-    <meta property="og:image" content="{{asset('thumbnail.png')}}">
+    <meta property="og:image" content="{{asset('thumbnail.png2')}}">
     <meta property="og:image:alt" content="vicard - danh thiếp điện tử">
 
     <meta property="twitter:site" content="@vicard">
