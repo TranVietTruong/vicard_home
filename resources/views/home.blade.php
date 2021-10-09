@@ -35,10 +35,10 @@
     <title>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</title>
     <link rel="canonical" href="{{asset('')}}" />
 
-{{--    <link rel="stylesheet" href="{{asset('assets/skeleton.css')}}">--}}
-{{--    <link rel="stylesheet" href="{{asset('assets/style.css')}}">--}}
+    <link rel="stylesheet" href="{{asset('assets/skeleton.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/style.css')}}">
 
-     @include('components/css')
+{{--     @include('components/css')--}}
 
     @include('components/schema')
 
@@ -99,13 +99,19 @@
             </div>
         </div>
     </header>
-    <section id="trangchu" class="lazyload" data-bg="https://res.cloudinary.com/truongtv/image/upload/v1633346541/vicard/sps3qyay5om2uwbuwdfz.png">
-        {{-- <img class="bg" src="{{ asset('assets/img/background2.png') }}" alt=""> --}}
-        <div class="overlay"></div>
-        <div class="trangchu container">
-            <h1>Danh thiếp điện tử đầu tiên tại Việt Nam</h1>
-            <p style="font-size: 20px">Chia sẻ thông tin trong 1 giây</p>
-            <button onclick="smoothScroll(document.getElementById('mua'))" class="button button-primary"> Đặt Mua </button>
+    <section id="trangchu">
+        <div class="container">
+            <div class="content">
+                <div class="trangchu">
+                    <h1>Danh thiếp điện tử đầu tiên tại Việt Nam</h1>
+                    <p style="font-size: 20px">Chia sẻ thông tin trong 1 giây</p>
+                    <button onclick="smoothScroll(document.getElementById('mua'))" class="button button-primary"> Đặt Mua </button>
+                    <button style="margin-left: 10px;" class="button">Xem Thêm</button>
+                </div>
+                <div class="thumb-pc">
+                    <img width="100%" height="100%" src="{{asset('assets/img/phone-card.png')}}" alt="">
+                </div>
+            </div>
         </div>
     </section>
     <section id="tinhnang" class="lazyload" data-bg="https://res.cloudinary.com/truongtv/image/upload/v1633346536/vicard/ibvdzhf7jp9xmmeexmvq.png">
