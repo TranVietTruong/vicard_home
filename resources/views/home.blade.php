@@ -124,7 +124,7 @@
                 </div>
                 <div class="img">
                     {{-- <img src="{{ asset('assets/img/logo-social.png') }}" alt=""> --}}
-                    <img class="lazyload" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633745959/vicard/zkrct9ilxjwx18g7he5d.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
+                    <img class="lazyload" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633750149/vicard/geocepu33plratfdlq9e.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
                 </div>
             </div>
         </div>
