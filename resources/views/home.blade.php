@@ -226,12 +226,12 @@
                 <div class="content_image">
                     <div class="thumb">
                         {{-- <img src="{{ asset('assets/img/front.png') }}" alt=""> --}}
-                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346537/vicard/pb3yvuumqzxaqxzeef7f.png" alt="Mặt trước thẻ vicard">
+                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633750709/vicard/bd72qgmoxvvd0pe6ru6u.png" alt="Mặt trước thẻ vicard">
                         <div id="replace_name" class="name">TÊN CỦA BẠN</div>
                     </div>
                     <div class="thumb">
                         {{-- <img src="{{ asset('assets/img/back.png') }}" alt=""> --}}
-                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633346538/vicard/bcd67l2kjygssmbzqegb.png" alt="Mặt sau thẻ vicard">
+                        <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633750709/vicard/ihz34tmo2s7wzvz45t82.png" alt="Mặt sau thẻ vicard">
                     </div>
                 </div>
                 <div id="form" class="form">
