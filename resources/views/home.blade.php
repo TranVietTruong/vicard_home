@@ -51,7 +51,7 @@
             <div class="header">
                 <div class="logo">
                     <a href="{{asset('')}}">
-                        <img class="lazyload" width="100%" height="50px" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633744512/logo/mgdjnff7fagnafmzcfhg.png" alt="logo website vicard">
+                        <img width="100%" height="50px" src="https://res.cloudinary.com/truongtv/image/upload/v1633744512/logo/mgdjnff7fagnafmzcfhg.png" alt="logo website vicard">
                     </a>
                 </div>
                 <div class="menu">
@@ -109,12 +109,12 @@
                     <button style="margin-left: 10px;" class="button">Xem Thêm</button>
                 </div>
                 <div class="thumb-pc">
-                    <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633749874/vicard/mobyrphxm1sg8ld7hm1r.png" alt="Danh thiếp điện tử vicard">
+                    <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633749874/vicard/mobyrphxm1sg8ld7hm1r.png" alt="Danh thiếp điện tử vicard">
                 </div>
             </div>
         </div>
     </section>
-    <section id="tinhnang" class="lazyload" data-bg="https://res.cloudinary.com/truongtv/image/upload/v1633346536/vicard/ibvdzhf7jp9xmmeexmvq.png">
+    <section id="tinhnang">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="content">
@@ -123,8 +123,7 @@
                     <p style="font-size: 16px">Với thẻ cá nhân thông minh Vicard, bạn có thể chia sẻ tất cả mạng xã hội đang phổ biến hiện nay như Facebook, Zalo, Instagram, Tiktok, ... và nhiều hơn nữa. Ngoài ra, với tính năng lưu danh bạ, đối tác của bạn sẽ chỉ mất 1 giây để có thể lưu liên lạc của bạn thay vì phải nhập từ bàn phím tốn rất nhiều thời gian.</p>
                 </div>
                 <div class="img">
-                    {{-- <img src="{{ asset('assets/img/logo-social.png') }}" alt=""> --}}
-                    <img class="lazyload" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633750149/vicard/geocepu33plratfdlq9e.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
+                    <img src="https://res.cloudinary.com/truongtv/image/upload/v1633750149/vicard/geocepu33plratfdlq9e.png" width="100%" height="100%" alt="Nền tảng kết nối thẻ vicard">
                 </div>
             </div>
         </div>
@@ -133,7 +132,6 @@
         <div class="container">
             <div class="content">
                 <div class="img">
-                    {{-- <img src="{{ asset('assets/img/tinhnang.png') }}" alt=""> --}}
                     <img class="lazyload" width="100%" height="100%" data-src="https://res.cloudinary.com/truongtv/image/upload/v1633750327/vicard/awf9itlhek8a7quzs5wb.png" alt="Cách thức hoạt động của thẻ vicard">
                 </div>
                 <div class="text">
@@ -294,7 +292,6 @@
         </div>
     </section>
     @include('components/footer')
-    
     <script src="{{asset('assets/lazysizes.js')}}"></script>
     <script>
         function changeText()
