@@ -19,6 +19,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+img {image-rendering: -webkit-optimize-contrast;}
 .header {
     display: flex;
     justify-content: space-between;
@@ -66,8 +67,8 @@ a {
 }
 
 #trangchu {
-    padding-top: 70px;
-    height: 100vh;
+    padding-top: 110px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
