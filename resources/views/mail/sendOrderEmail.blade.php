@@ -34,7 +34,7 @@
             <div style="font-weight: bold;margin-bottom: 5px;">Thông tin dịch vụ:</div>
             <div>Dịch vụ: <span style="font-weight: bold;">Danh Thiếp Điện Tử Vicard</span></div>
             <div>Số lượng: <span style="font-weight: bold;">01</span></div>
-            <div>Đơn giá: <span style="font-weight: bold;">359,000đ</span></div>
+            <div>Đơn giá: <span style="font-weight: bold;">299,000đ</span></div>
 
             <div style="font-weight: bold; margin-top: 10px;margin-bottom: 5px;">Thông tin thanh toán:</div>
             <div>Hình thức thanh toán: <span style="font-weight: bold;">Chuyển khoản</span></div>

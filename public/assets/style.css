@@ -242,20 +242,19 @@ section#mua {
     height: 45px;
 }
 .price {
-	padding: 15px;
 	display: flex;
     align-items: center;
 }
 
 span.price_origin {
 	text-decoration: line-through;
-	color: #828282;
-	font-size: 22px;
+    color: #e43f52;
+    font-size: 20px;
 }
 
 span.price_promotion {
-    margin-left: 30px;
-    font-size: 35px;
+    margin-left: 15px;
+    font-size: 25px;
     color: #00bc00;
 }
 
@@ -332,6 +331,7 @@ section#content {
 
 	.logo img {
 	    height: 30px;
+    	margin-left: 0;
 	}
 	.menu {
 		display: none !important;

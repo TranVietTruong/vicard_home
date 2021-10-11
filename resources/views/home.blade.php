@@ -233,10 +233,6 @@
                     </div>
                 </div>
                 <div id="form" class="form">
-                    <div class="price">
-                        <span class="price_origin">500,000đ</span>
-                        <span class="price_promotion">359,000đ</span>
-                    </div>
                     <form action="{{url('thanh-toan')}}" method="post">
                         @csrf
                         <label for="name">Tên của bạn (tên trên thẻ) *</label>
@@ -279,6 +275,10 @@
                         @if($errors->has('address'))
                             <small style="color: #dc0000;">{{$errors->first('address') }}</small>
                         @endif
+                        <div class="price">
+                            <span class="price_origin">359,000đ</span>
+                            <span class="price_promotion">299,000đ</span>
+                        </div>
                         <div class="freeship">
                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z"/></svg>
                             <span style="margin-left: 10px;font-weight: bold;">Miễn phí giao hàng toàn quốc</span>
@@ -293,6 +293,8 @@
     </section>
     @include('components/footer')
     <script src="{{asset('assets/lazysizes.js')}}"></script>
+    @include('components/ga')
+    
     <script>
         function changeText()
         {
@@ -360,7 +362,5 @@
           }
         });
     </script>
-    
-    @include('components/ga')
 </body>
 </html>
