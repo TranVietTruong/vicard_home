@@ -52,7 +52,7 @@
                     <p style="margin-top: 10px;">Cảm ơn bạn đã sử dụng dịch vụ của Vicard. Thông tin chi tiết đơn hàng đã được gửi đến email {{Session::get('order')->email}}. Xin vui lòng thanh toán để hoàn tất đơn hàng. Email xác nhận thanh toán sẽ được gửi đến bạn chậm nhất sau 12h.</p>
                 </div>
                 <ul>
-                    <li>Đơn giá: <b>359,000đ</b></li>
+                    <li>Đơn giá: <b>299,000đ</b></li>
                     <li>Hình thức thanh toán: <b>Chuyển khoản</b></li>
                     <li>Nội dung: <b>{{Session::get('order')->code_tag}} {{Session::get('order')->mobile}}</b></li>
                 </ul>
