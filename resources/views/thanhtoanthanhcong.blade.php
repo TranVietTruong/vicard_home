@@ -58,15 +58,15 @@
                 </ul>
                 <hr>
                 <ul>
+                    <li>Ngân Hàng: <b>Ngân hàng Thương mại Cổ phần Tiên Phong - TPBANK</b></li>
                     <li>Số Tài Khoản : <b>0367 8821 601</b></li>
                     <li>Chủ tài khoản: <b>TRAN VIET TRUONG</b></li>
-                    <li>Ngân Hàng: <b>Ngân hàng Thương mại Cổ phần Tiên Phong - TPBANK</b></li>
                 </ul>
                 <hr>
                 <ul>
-                    <li>Số Tài Khoản : <b>14084637</b></li>
-                    <li>Chủ tài khoản: <b>TRAN VIET TRUONG</b></li>
                     <li>Ngân Hàng: <b> Ngân hàng Thương mại Cổ phần Á Châu - ACB</b></li>
+                    <li>Số Tài Khoản : <b>14084637</b></li>
+                    <li>Chủ tài khoản: <b>TRAN VIET TRUONG</b></li>                   
                 </ul>
             </div>
         @else
