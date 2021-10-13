@@ -61,14 +61,12 @@
                     <li>Số Tài Khoản : <b>0367 8821 601</b></li>
                     <li>Chủ tài khoản: <b>TRAN VIET TRUONG</b></li>
                     <li>Ngân Hàng: <b>Ngân hàng Thương mại Cổ phần Tiên Phong - TPBANK</b></li>
-                    <li>Chi nhánh: <b>TRUNG TAM BAN MIEN BAC 1</b></li>
                 </ul>
                 <hr>
                 <ul>
                     <li>Số Tài Khoản : <b>14084637</b></li>
                     <li>Chủ tài khoản: <b>TRAN VIET TRUONG</b></li>
                     <li>Ngân Hàng: <b> Ngân hàng Thương mại Cổ phần Á Châu - ACB</b></li>
-                    <li>Chi nhánh: <b>ACB - CN CHUA HA</b></li>
                 </ul>
             </div>
         @else
