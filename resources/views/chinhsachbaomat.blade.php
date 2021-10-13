@@ -88,7 +88,7 @@
             <p>Nội dung của "Điều khoản bảo mật" này có thể thay đổi để phù hợp với các nhu cầu của Chúng tôi cũng như nhu cầu và sự phản hồi từ khách hàng. Khi cập nhật nội dung chính sách này, chúng tôi sẽ chỉnh sửa lại thời gian "Cập nhật lần cuối". Với những thay đổi quan trọng, chúng tôi sẽ thông báo cho bạn qua các kênh mạng xã hội cũng như thông báo trên website chính thức.</p>
             <h4>LIÊN HỆ</h4>
             <p>
-            Khi phát hiện thông tin cá nhân của mình bị sử dụng sai mục đích hoặc phạm vi, Người Tiêu Dùng gửi email khiếu nại đến email vicard.vn@gmail.com hoặc gọi điện thoại tới số 0333.100.001 để khiếu nại và cung cấp chứng cứ liên quan tới vụ việc cho Ban quản trị. Ban quản trị cam kết sẽ phản hồi ngay lập tức hoặc muộn nhất là trong vòng 24 (hai mươi tư) giờ làm việc kể từ thời điểm nhận được khiếu nại.</p>
+            Khi phát hiện thông tin cá nhân của mình bị sử dụng sai mục đích hoặc phạm vi, Người Tiêu Dùng gửi email khiếu nại đến email vicard.vn@gmail.com hoặc gọi điện thoại tới số 0373.048.419 để khiếu nại và cung cấp chứng cứ liên quan tới vụ việc cho Ban quản trị. Ban quản trị cam kết sẽ phản hồi ngay lập tức hoặc muộn nhất là trong vòng 24 (hai mươi tư) giờ làm việc kể từ thời điểm nhận được khiếu nại.</p>
         </div>
     </section>
 
