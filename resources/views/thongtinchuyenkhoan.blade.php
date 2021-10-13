@@ -53,13 +53,11 @@
             <p>Ngân Hàng: <b>Ngân hàng Thương mại Cổ phần Tiên Phong - TPBANK</b></p>
             <p>Chủ tài khoản: <b>TRAN VIET TRUONG</b></p>
             <p>Số Tài Khoản :  <b>0367 8821 601</b></p>
-            <p>Chi nhánh: <b>TRUNG TAM BAN MIEN BAC 1</b></p>
             <hr>
             <img style="margin-bottom:20px;" width="300px" height="100%" src="https://cdn.tgdd.vn/Files/2021/03/17/1335982/acb-la-ngan-hang-gi-co-tot-khong-1-652x367.jpg" alt="">
             <p>Ngân Hàng: <b>Ngân hàng Thương mại Cổ phần Á Châu - ACB</b></p>
             <p>Chủ tài khoản: <b>TRAN VIET TRUONG</b></p>
             <p>Số Tài Khoản :  <b>14084637</b></p>
-            <p>Chi nhánh: <b>ACB - CN CHUA HA</b></p>
         </div>
     </section>
 
