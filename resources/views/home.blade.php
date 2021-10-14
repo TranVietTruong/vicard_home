@@ -106,7 +106,7 @@
                     <h1>Danh Thiếp Điện Tử đầu tiên tại Việt Nam</h1>
                     <p style="font-size: 20px">Định danh tên mình trên bản đồ công nghệ 4.0</p>
                     <button onclick="smoothScroll(document.getElementById('mua'))" class="button button-primary"> Đặt Mua </button>
-                    <button style="margin-left: 10px;" class="button">Xem Thêm</button>
+                    <button onclick="window.location.href = 'https://www.facebook.com/vicard.vn/'" style="margin-left: 10px;" class="button">Xem Thêm</button>
                 </div>
                 <div class="thumb-pc">
                     <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633749874/vicard/mobyrphxm1sg8ld7hm1r.png" alt="Danh thiếp điện tử vicard">
