@@ -57,9 +57,19 @@ class HomeController extends Controller
 
         $order = new Order();
         $order->fill($request->all());
-        $order->code_tag = rand(100000, 999999);
+        $order->code_tag = $this->generateRandomString();
         $order->save();
         SendEmailOrder::dispatch($order);
         return redirect('/thanh-toan-thanh-cong')->with('order', $order);
+    }
+
+    public function generateRandomString($length = 6) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyz';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
     }
 }
