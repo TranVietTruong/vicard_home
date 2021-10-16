@@ -109,7 +109,7 @@
                     <button onclick="window.location.href = 'https://www.facebook.com/vicard.vn/'" style="margin-left: 10px;" class="button">Xem Thêm</button>
                 </div>
                 <div class="thumb-pc">
-                    <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1633749874/vicard/mobyrphxm1sg8ld7hm1r.png" alt="Danh thiếp điện tử vicard">
+                    <img width="100%" height="100%" src="https://res.cloudinary.com/truongtv/image/upload/v1634394529/vicard/c7xsmbutsmdi2a8gqkpj.png" alt="Danh thiếp điện tử vicard">
                 </div>
             </div>
         </div>
